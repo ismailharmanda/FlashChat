@@ -20,6 +20,7 @@
 		EC5EA1372A1E480B0010D067 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EC5EA1362A1E480B0010D067 /* GoogleService-Info.plist */; };
 		EC5EA1392A1E4CC50010D067 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = EC5EA1382A1E4CC50010D067 /* .gitignore */; };
 		EC5EA13B2A1FAB130010D067 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5EA13A2A1FAB130010D067 /* Constants.swift */; };
+		EC5EA13D2A1FBEC60010D067 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5EA13C2A1FBEC60010D067 /* Message.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		EC5EA1362A1E480B0010D067 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		EC5EA1382A1E4CC50010D067 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		EC5EA13A2A1FAB130010D067 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		EC5EA13C2A1FBEC60010D067 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +131,7 @@
 		EC5EA1352A1D0ADE0010D067 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				EC5EA13C2A1FBEC60010D067 /* Message.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -163,7 +166,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1110;
 				LastUpgradeCheck = 1110;
-				ORGANIZATIONNAME = "Angela Yu";
+				ORGANIZATIONNAME = "ismail harmanda";
 				TargetAttributes = {
 					0B628172235DEE8100E35CAF = {
 						CreatedOnToolsVersion = 11.1;
@@ -255,6 +258,7 @@
 				0B628179235DEE8100E35CAF /* SceneDelegate.swift in Sources */,
 				0B62818F235DF01000E35CAF /* LoginViewController.swift in Sources */,
 				EC5EA13B2A1FAB130010D067 /* Constants.swift in Sources */,
+				EC5EA13D2A1FBEC60010D067 /* Message.swift in Sources */,
 				0B628191235DF01B00E35CAF /* ChatViewController.swift in Sources */,
 				0B62818D235DF00B00E35CAF /* RegisterViewController.swift in Sources */,
 			);
